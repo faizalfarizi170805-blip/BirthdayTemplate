@@ -1,8 +1,8 @@
 # 🎉 Birthday Template
 
-Template website ucapan ulang tahun interaktif berbasis Vue.js. Dibuat sebagai kado digital personal — cocok dipakai untuk mengucapkan selamat ulang tahun ke orang terdekat dengan cara yang lebih berkesan dibanding ucapan biasa.
+Template website ucapan ulang tahun interaktif berbasis Vue.js. Dibuat sebagai kado digital personal, cocok dipakai untuk mengucapkan selamat ulang tahun ke orang terdekat dengan cara yang lebih berkesan dibanding ucapan biasa.
 
-## 📌 Tentang Proyek
+## About Project
 
 Website ini mengajak pengunjung (si penerima ucapan) menyusuri sebuah "perjalanan" berisi kenangan, alasan-alasan untuk bersyukur, dan pesan personal, dilengkapi animasi, musik, dan confetti agar terasa lebih hangat dan spesial.
 
@@ -13,16 +13,16 @@ Alur halaman:
 3. **Reasons** — Daftar alasan-alasan mengapa sosok tersebut spesial, ditampilkan dalam bentuk kartu grid.
 4. **Messages** — Surat pesan personal dengan efek animasi mengetik (typewriter effect).
 
-## ✨ Fitur
+## Fitur
 
-- 🎊 Animasi confetti saat halaman pertama dibuka
-- 🎵 Musik latar yang otomatis diputar saat interaksi pertama
-- 🖼️ Galeri foto kenangan dengan animasi scroll-reveal (Intersection Observer)
-- 💌 Efek mengetik (typewriter) untuk pesan personal
-- 📱 Desain responsif, nyaman diakses lewat HP
-- 🎨 Tema warna hangat (coklat, gold, pink) yang mudah dikustomisasi
+- Animasi confetti saat halaman pertama dibuka
+- Musik latar yang otomatis diputar saat interaksi pertama
+- Galeri foto kenangan dengan animasi scroll-reveal (Intersection Observer)
+- Efek mengetik (typewriter) untuk pesan personal
+- Desain responsif, nyaman diakses lewat HP
+- Tema warna hangat (coklat, gold, pink) yang mudah dikustomisasi
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Vue 3** (Composition API — `<script setup>`)
 - **Vue Router** — navigasi antar halaman
@@ -30,7 +30,7 @@ Alur halaman:
 - **canvas-confetti** — efek confetti
 - **Intersection Observer API** — animasi saat elemen masuk ke layar
 
-## 🚀 Cara Menjalankan
+## Cara Menjalankan
 
 ```bash
 # Install dependencies
@@ -43,7 +43,7 @@ npm run serve
 npm run build
 ```
 
-## 🎨 Cara Kustomisasi
+## Cara Kustomisasi
 
 Template ini dibuat generic supaya gampang dipakai ulang untuk siapa saja:
 
@@ -52,7 +52,7 @@ Template ini dibuat generic supaya gampang dipakai ulang untuk siapa saja:
 - **Ganti nama** — cari placeholder `[Name]` dan `[Your Name]` di setiap halaman.
 - **Ganti warna** — sesuaikan kelas warna Tailwind (`bg-[#412C19]`, `bg-[#D4AF37]`, dll) sesuai tema yang diinginkan.
 
-## 📄 Lisensi
+## Lisensi
 
 Bebas digunakan dan dimodifikasi untuk keperluan personal.
 
